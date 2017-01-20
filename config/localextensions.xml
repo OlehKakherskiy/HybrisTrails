@@ -10,6 +10,7 @@
         <extension name="mcc"/>
         <extension name="platformhmc"/>                                                
         <extension name="mediaconversion"/>         
-        <extension name="cuppy"/>                                           
+        <extension name="cuppy"/>
+                                                  
     </extensions> 
 </hybrisconfig>
