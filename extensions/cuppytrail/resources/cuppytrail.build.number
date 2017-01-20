@@ -1,0 +1,9 @@
+#Ant properties
+#Sun Oct 09 14:13:18 CEST 2016
+builddate=20161009 1412
+description=cuppytrail
+name=cuppytrail
+releasedate=20150915 1445
+vendor=hybris
+version=5.7.0.16
+version.api=5.7.0
