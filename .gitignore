@@ -1,0 +1,41 @@
+# IntelliJ files and folders
+idea-module-files
+*.iml
+.idea
+
+# hybris platform
+hybris/
+
+# Folders to ignore
+bin
+gensrc
+classes
+testclasses
+eclipsebin
+fileAbsolutePath
+.metadata
+
+# Filename patterns to ignore
+*.war
+*.ear
+*hmc.jar
+*_bof.jar
+*.class
+*.xsd
+*.log
+dummy.txt
+build.xml
+pom.xml
+Generated*.java
+platformhome.properties
+*testclasses.xml
+extensioninfo.xsd
+ruleset.xml
+base.properties
+
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
