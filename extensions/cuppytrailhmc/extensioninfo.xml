@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<extensioninfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extensioninfo.xsd">
+
+   <extension abstractclassprefix="Generated" classprefix="Cuppytrailhmc" managername="CuppytrailhmcManager" managersuperclass="de.hybris.platform.jalo.extension.Extension" name="cuppytrailhmc" usemaven="false">
+      <requires-extension name="hmc"/>
+      <requires-extension name="cuppytrail"/>
+
+      <coremodule generated="true" manager="de.hybris.platform.cuppytrailhmc.jalo.CuppytrailhmcManager" packageroot="de.hybris.platform.cuppytrailhmc"/>
+
+      <!--<webmodule jspcompile="false" webroot="/cuppytrailhmc"/>-->
+
+       <hmcmodule extensionclassname="de.hybris.platform.cuppytrail.hmc.CuppytrailHMCExtension"/>
+   </extension>
+      
+</extensioninfo>
